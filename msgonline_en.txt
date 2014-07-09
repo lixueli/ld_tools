@@ -1,0 +1,47 @@
+<form id="feedbackForm" action="/category.do?xcase=contactSend" enctype="multipart/form-data" method="post" onsubmit="return Preview.feedback_submitCheck()">  
+           <table cellpadding="0" cellspacing="0" id="feedback" class="table"> 
+            <tfoot> 
+             <tr> 
+              <th></th> 
+              <td> 
+               <div id="submit"> 
+                <input id="feedback_submitSend" type="submit" value="Send"> 
+               </div> </td> 
+             </tr> 
+            </tfoot> 
+            <tbody> 
+             <tr> 
+              <th><strong class="must">*</strong>Subject:</th> 
+              <td><input name="theme" value="" type="" placeholder=""></td> 
+             </tr> 
+             <tr> 
+              <th><strong class="must">*</strong>Content:</th> 
+              <td><textarea name="content" placeholder="Please&nbsp;fill&nbsp;in&nbsp;the&nbsp;details&nbsp;you&nbsp;want to know such as product specifications,price,MOQ,etc."></textarea></td> 
+             </tr> 
+             <tr> 
+              <th>Attachment:</th> 
+              <td><span class="uploadBtn"><span class="inside">Upload<input type="file" name="affix"></span></span></td> 
+             </tr> 
+             <tr> 
+              <th><strong class="must">*</strong>Name:</th> 
+              <td><input name="name" value="" type="" placeholder=""></td> 
+             </tr> 
+             <tr> 
+              <th>Company Name:</th> 
+              <td><input name="comName" value="" type="" placeholder=""></td> 
+             </tr> 
+             <tr> 
+              <th><strong class="must">*</strong>E-mail:</th> 
+              <td><input name="email" value="" type="" placeholder="Please fill in the commonly used e-mail"></td> 
+             </tr> 
+             <tr> 
+              <th>TEL:</th> 
+              <td><input name="phone" value="" type="" placeholder="Please fill in contact phone number or cell phone"></td> 
+             </tr> 
+             <tr> 
+              <th></th> 
+              <td><input name="isHasValidate" value="false" type="hidden" placeholder=""></td> 
+             </tr> 
+            </tbody> 
+           </table> 
+          </form>

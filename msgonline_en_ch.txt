@@ -1,0 +1,47 @@
+<form onsubmit="return Preview.feedback_submitCheck()" method="post" enctype="multipart/form-data" action="/category.do?xcase=contactSend" id="feedbackForm"> 
+           <table cellspacing="0" cellpadding="0" class="table" id="feedback"> 
+            <tfoot> 
+             <tr> 
+              <th></th> 
+              <td> 
+               <div id="submit"> 
+                <input type="submit" value="发送" id="feedback_submitSend"> 
+               </div> </td> 
+             </tr> 
+            </tfoot> 
+            <tbody> 
+             <tr> 
+              <th><strong class="must">*</strong>主题：</th> 
+              <td><input type="" placeholder="" value="" name="theme"></td> 
+             </tr> 
+             <tr> 
+              <th><strong class="must">*</strong>详细说明：</th> 
+              <td><textarea placeholder="请填写您想了解的详细信息，如产品规格、价格、起订量等" name="content"></textarea></td> 
+             </tr> 
+             <tr> 
+              <th>附件：</th> 
+              <td><input type="file" name="affix"></td> 
+             </tr> 
+             <tr> 
+              <th><strong class="must">*</strong>您的姓名：</th> 
+              <td><input type="" placeholder="" value="" name="name"></td> 
+             </tr> 
+             <tr> 
+              <th>您的公司：</th> 
+              <td><input type="" placeholder="" value="" name="comName"></td> 
+             </tr> 
+             <tr> 
+              <th><strong class="must">*</strong>电子邮箱：</th> 
+              <td><input type="" placeholder="请填写常用的电子邮箱" value="" name="email"></td> 
+             </tr> 
+             <tr> 
+              <th>联系电话：</th> 
+              <td><input type="" placeholder="请填写手机号码或联系电话" value="" name="phone"></td> 
+             </tr> 
+             <tr> 
+              <th></th> 
+              <td><input type="hidden" placeholder="" value="false" name="isHasValidate"></td> 
+             </tr> 
+            </tbody> 
+           </table> 
+          </form>

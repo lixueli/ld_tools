@@ -1,0 +1,5 @@
+<style>
+.topArea>div,.topArea>div>.cont,.bottomArea>div,.bottomArea>div>.cont{width:1000px;margin-left:auto;margin-right:auto;}
+.topArea{width:auto}
+.bottomArea{width:auto}
+</style>

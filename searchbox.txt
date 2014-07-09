@@ -1,0 +1,37 @@
+<form action="/product.do?xcase=products" method="post">
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<input id="searchValue1" name="searchValue" style="padding:3px;border:none;background:none;width:155px;height:20px;line-height:20px" type="text" value="search" /></td>
+				<td>
+					<button id="homeSearch1" onclick="return checkSearch('searchValue1');" style="width:23px;height:23px;background:none;border:none" type="submit"></button></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+<script>
+jQuery(function(){
+    jQuery("#searchValue1").focus(function(){  //地址框获得鼠标焦点
+        var txt_val = jQuery(this).val();   //得到当前文本框的值
+        if (txt_val==this.defaultValue){
+            jQuery(this).val("");
+        }
+    })
+
+    jQuery("#searchValue1").blur(function(){  //地址框失去鼠标焦点
+        var txt_val = jQuery(this).val();
+        if (txt_val==""){
+            jQuery(this).val(this.defaultValue);
+        }
+    })
+});
+</script>
+
+.aa{background:url(http:11.jpg) no-repeat;position:absolute;left:50%;z-index:4;width:180px;height:25px!important;margin-left:320px;top:49px;}
+
+
+
+黑色放大镜：/upload/common/pic/fangdajing.png
+白色放大镜：/upload/common/pic/fangdajing_white
+
